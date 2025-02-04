@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        /*
+/*
 //q#1
         ArrayList<String> trees = new ArrayList<String>();
         trees.add("pine");
@@ -31,13 +31,32 @@ public class Main {
         cat.get(1).setName("Archie");
         System.out.println(cat.toString());
 
-         */
+        //q#7
 
-        ArrayList dogList = new ArrayList();
+        ArrayList<Dog> dogList = new ArrayList();
         Dog dog1 = new Dog("Spot");
         Dog dog2 = new Dog("Benny");
         dogList.add(dog1);
         dogList.add(dog2);
         dogList.get(0).bark();
+
+ */
+        Integer num1 = new Integer(5);
+        Integer num2 = 10;
+        int num3 = 15;
+
+        ArrayList<Integer> numList = new ArrayList<Integer>();
+
+        numList.add(num1);
+        numList.add(num2);
+        numList.add(num3);
+
+        int sum = num1 + num2 + num3;
+
+        numList.add(sum);
+
+        System.out.println(numList);
+
+
     }
 }
